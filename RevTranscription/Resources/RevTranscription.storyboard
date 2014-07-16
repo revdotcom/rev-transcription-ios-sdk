@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="13D65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="sdp-Vl-NXh">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="sdp-Vl-NXh">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
     </dependencies>
@@ -171,11 +171,11 @@
                                         </tableViewCellContentView>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                     </tableViewCell>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="OrderTotal" id="ZK1-D5-foN">
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="none" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="OrderTotal" id="ZK1-D5-foN">
                                         <rect key="frame" x="0.0" y="255" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="ZK1-D5-foN" id="1Wg-Z5-EAY">
-                                            <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="287" height="43"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="Your Order Total" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qe0-g8-6SX">
@@ -195,6 +195,9 @@
                                             </subviews>
                                         </tableViewCellContentView>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                        <connections>
+                                            <segue destination="OFZ-iQ-ERe" kind="push" id="rJ7-AX-tW0"/>
+                                        </connections>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Notes" textLabel="EHJ-EU-XHx" detailTextLabel="G9z-FX-GRN" style="IBUITableViewCellStyleValue1" id="8z9-Iv-1jJ">
                                         <rect key="frame" x="0.0" y="299" width="320" height="44"/>
@@ -221,7 +224,7 @@
                                         </tableViewCellContentView>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <connections>
-                                            <segue destination="OFZ-iQ-ERe" kind="push" identifier="ShowTermsOfService" id="aff-Ob-gA6"/>
+                                            <segue destination="hH8-3W-VlG" kind="push" identifier="EditComments" id="Ngv-5d-8v9"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -312,7 +315,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cGq-Ha-jGD" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1234" y="-3021"/>
+            <point key="canvasLocation" x="1258" y="-3493"/>
         </scene>
         <!--Rev Login View Controller - Log In-->
         <scene sceneID="tvA-qw-EGj">
@@ -430,7 +433,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dvc-bE-kk1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="750" y="-1495"/>
+            <point key="canvasLocation" x="758" y="-1079"/>
         </scene>
         <!--Rev Signup View Controller - Sign Up-->
         <scene sceneID="McL-4v-sKn">
@@ -604,7 +607,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="j0k-vP-bza" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="750" y="-2287"/>
+            <point key="canvasLocation" x="758" y="-1871"/>
         </scene>
         <!--Transcription Order Receipt View Controller - Order Placed-->
         <scene sceneID="eD3-QU-PUr">
@@ -774,7 +777,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="c0Q-Pp-L6K" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="728" y="-812"/>
+            <point key="canvasLocation" x="736" y="-396"/>
         </scene>
         <!--Rev Payment View Controller - Payment-->
         <scene sceneID="L9p-ts-RH5">
@@ -864,7 +867,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="geg-D9-uWv" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="750" y="-3021"/>
+            <point key="canvasLocation" x="758" y="-2605"/>
         </scene>
         <!--Transcription Order Comments View Controller - Order Comments-->
         <scene sceneID="YJV-4N-zPE">
@@ -898,7 +901,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rtq-5W-pw3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="728" y="-55"/>
+            <point key="canvasLocation" x="736" y="361"/>
         </scene>
     </scenes>
     <resources>
@@ -912,6 +915,6 @@
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="aff-Ob-gA6"/>
+        <segue reference="rJ7-AX-tW0"/>
     </inferredMetricsTieBreakers>
 </document>
