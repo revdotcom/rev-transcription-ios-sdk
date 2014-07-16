@@ -53,6 +53,7 @@
 		C5FF8C2F1976E6D90035743B /* affordable_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C5FF8C2C1976E6D90035743B /* affordable_icon@2x.png */; };
 		C5FF8C301976E6D90035743B /* lightning_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C5FF8C2D1976E6D90035743B /* lightning_icon@2x.png */; };
 		C5FF8C311976E6D90035743B /* transcriptionist_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C5FF8C2E1976E6D90035743B /* transcriptionist_icon@2x.png */; };
+		C5FF8C3319771C230035743B /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5FF8C3219771C230035743B /* SystemConfiguration.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -112,6 +113,7 @@
 		C5FF8C2C1976E6D90035743B /* affordable_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "affordable_icon@2x.png"; sourceTree = "<group>"; };
 		C5FF8C2D1976E6D90035743B /* lightning_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lightning_icon@2x.png"; sourceTree = "<group>"; };
 		C5FF8C2E1976E6D90035743B /* transcriptionist_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "transcriptionist_icon@2x.png"; sourceTree = "<group>"; };
+		C5FF8C3219771C230035743B /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +121,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5FF8C3319771C230035743B /* SystemConfiguration.framework in Frameworks */,
 				C5B83AF0196B5DF70033BC47 /* CoreGraphics.framework in Frameworks */,
 				C54B52161976056000284914 /* libRevTranscription.a in Frameworks */,
 				C5B83AEE196B5DF70033BC47 /* Foundation.framework in Frameworks */,
@@ -236,6 +239,7 @@
 		C5B83AEC196B5DF70033BC47 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C5FF8C3219771C230035743B /* SystemConfiguration.framework */,
 				C5B83AED196B5DF70033BC47 /* Foundation.framework */,
 				C5B83AEF196B5DF70033BC47 /* CoreGraphics.framework */,
 				C5B83AF1196B5DF70033BC47 /* UIKit.framework */,

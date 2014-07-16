@@ -48,26 +48,14 @@
     recording.contentMimeType = @"audio/mp4";
     
     [RevTranscription presentTranscriptionInterfaceForParentViewController:self forRecording:recording withSuccessBlock:^(NSString *orderUri) {
-        NSLog(@"Revcorder success with URI %@", orderUri);
+        NSLog(@"RevTranscription success with URI %@", orderUri);
     } failureBlock:^(RevApiError *error) {
-        NSLog(@"Revcorder error");
+        NSLog(@"RevTranscription error");
     }];
 }
 
 -(IBAction)logoutButtonPressed:(id)sender {
     [[RevApiWrapper sharedSession] logout];
 }
-
-
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
-{
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 
 @end
