@@ -491,10 +491,7 @@
 				INFOPLIST_FILE = "RevcorderSample/RevTranscriptionSample-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/ThirdParty/RevcorderSDK",
-					"$(PROJECT_DIR)/ThirdParty/RevCorderSDK",
-					"$(PROJECT_DIR)/ThirdParty/RevTranscription",
-					/Users/rev/Work/RevTranscription/RevTranscription,
+					"$(PROJECT_DIR)/../RevTranscription",
 				);
 				"OTHER_LDFLAGS[arch=*]" = "-ObjC";
 				PRODUCT_NAME = RevTranscriptionSample;
