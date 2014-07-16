@@ -196,7 +196,7 @@
                                         </tableViewCellContentView>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <connections>
-                                            <segue destination="OFZ-iQ-ERe" kind="push" id="rJ7-AX-tW0"/>
+                                            <segue destination="OFZ-iQ-ERe" kind="push" identifier="ShowTermsOfService" id="rJ7-AX-tW0"/>
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Notes" textLabel="EHJ-EU-XHx" detailTextLabel="G9z-FX-GRN" style="IBUITableViewCellStyleValue1" id="8z9-Iv-1jJ">
