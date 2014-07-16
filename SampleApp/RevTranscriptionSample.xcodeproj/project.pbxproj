@@ -41,6 +41,7 @@
 		C54B52341976056000284914 /* textfield.png in Resources */ = {isa = PBXBuildFile; fileRef = C54B52111976056000284914 /* textfield.png */; };
 		C54B52351976056000284914 /* textfield@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C54B52121976056000284914 /* textfield@2x.png */; };
 		C54B52361976056000284914 /* RevTranscription.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C54B52131976056000284914 /* RevTranscription.storyboard */; };
+		C54B523919761ADB00284914 /* SampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C54B523819761ADB00284914 /* SampleViewController.m */; };
 		C5B83AEE196B5DF70033BC47 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5B83AED196B5DF70033BC47 /* Foundation.framework */; };
 		C5B83AF0196B5DF70033BC47 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5B83AEF196B5DF70033BC47 /* CoreGraphics.framework */; };
 		C5B83AF8196B5DF70033BC47 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C5B83AF6196B5DF70033BC47 /* InfoPlist.strings */; };
@@ -48,8 +49,6 @@
 		C5B83AFE196B5DF70033BC47 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C5B83AFD196B5DF70033BC47 /* AppDelegate.m */; };
 		C5B83B01196B5DF70033BC47 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5B83AFF196B5DF70033BC47 /* Main_iPhone.storyboard */; };
 		C5B83B04196B5DF70033BC47 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5B83B02196B5DF70033BC47 /* Main_iPad.storyboard */; };
-		C5B83B07196B5DF70033BC47 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5B83B06196B5DF70033BC47 /* MasterViewController.m */; };
-		C5B83B0A196B5DF70033BC47 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5B83B09196B5DF70033BC47 /* DetailViewController.m */; };
 		C5B83B0C196B5DF70033BC47 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5B83B0B196B5DF70033BC47 /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
@@ -91,6 +90,8 @@
 		C54B52131976056000284914 /* RevTranscription.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = RevTranscription.storyboard; sourceTree = "<group>"; };
 		C54B52141976056000284914 /* RevApiWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RevApiWrapper.h; sourceTree = "<group>"; };
 		C54B52151976056000284914 /* RevTranscription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RevTranscription.h; sourceTree = "<group>"; };
+		C54B523719761ADB00284914 /* SampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SampleViewController.h; sourceTree = "<group>"; };
+		C54B523819761ADB00284914 /* SampleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SampleViewController.m; sourceTree = "<group>"; };
 		C5B83AEA196B5DF70033BC47 /* RevTranscriptionSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RevTranscriptionSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5B83AED196B5DF70033BC47 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C5B83AEF196B5DF70033BC47 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -103,10 +104,6 @@
 		C5B83AFD196B5DF70033BC47 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		C5B83B00196B5DF70033BC47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
 		C5B83B03196B5DF70033BC47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
-		C5B83B05196B5DF70033BC47 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
-		C5B83B06196B5DF70033BC47 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
-		C5B83B08196B5DF70033BC47 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
-		C5B83B09196B5DF70033BC47 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		C5B83B0B196B5DF70033BC47 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		C5B83B12196B5DF70033BC47 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
@@ -245,10 +242,8 @@
 				C5B83AFD196B5DF70033BC47 /* AppDelegate.m */,
 				C5B83AFF196B5DF70033BC47 /* Main_iPhone.storyboard */,
 				C5B83B02196B5DF70033BC47 /* Main_iPad.storyboard */,
-				C5B83B05196B5DF70033BC47 /* MasterViewController.h */,
-				C5B83B06196B5DF70033BC47 /* MasterViewController.m */,
-				C5B83B08196B5DF70033BC47 /* DetailViewController.h */,
-				C5B83B09196B5DF70033BC47 /* DetailViewController.m */,
+				C54B523719761ADB00284914 /* SampleViewController.h */,
+				C54B523819761ADB00284914 /* SampleViewController.m */,
 				C5B83B0B196B5DF70033BC47 /* Images.xcassets */,
 				C5B83AF4196B5DF70033BC47 /* Supporting Files */,
 			);
@@ -366,10 +361,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C54B523919761ADB00284914 /* SampleViewController.m in Sources */,
 				C5B83AFE196B5DF70033BC47 /* AppDelegate.m in Sources */,
-				C5B83B07196B5DF70033BC47 /* MasterViewController.m in Sources */,
 				C5B83AFA196B5DF70033BC47 /* main.m in Sources */,
-				C5B83B0A196B5DF70033BC47 /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -12,17 +12,8 @@
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
-{
-    // Override point for customization after application launch.
-    if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPad) {
-        UISplitViewController *splitViewController = (UISplitViewController *)self.window.rootViewController;
-        UINavigationController *navigationController = [splitViewController.viewControllers lastObject];
-        splitViewController.delegate = (id)navigationController.topViewController;
-    }
-    
-    //[RevTranscription initWithClientKey:@"YourApiKey" isSandbox:YES];
-    [RevTranscription initWithClientKey:@"JwWPBvlCAaUD7CX2PyJyq7cSKlE=" isSandbox:YES];
-    
+{    
+    [RevTranscription initWithClientKey:@"YourApiKey" isSandbox:YES];
     return YES;
 }
 							
