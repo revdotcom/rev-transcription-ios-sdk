@@ -1,21 +1,20 @@
 RevTranscription iOS SDK
 ========================
 
-The RevTranscription iOS SDK allows you to integrate with [Rev Transcription](https://www.rev.com/transcription) services, to allow your users to place Transcription orders.
+The RevTranscription iOS SDK allows your app to integrate with [Rev Transcription](https://www.rev.com/transcription) services, so users of your app can place transcription orders for audio files within your app.
 
 Registering for SDK usage
 -------------------------
 
-- To get started with RevTranscription SDK you will need to request access at [www.rev.com/api](http://www.rev.com/api).
-- Once you are granted access, you'll be given an API Client Key, that you can use to integrate with our API.
+- To get started with RevTranscription SDK you will need to request for Rev API access at [www.rev.com/api](http://www.rev.com/api).
+- You will receive an email with API access information, uncluding an API Client Key. The API Client Key is used to identify your app to our API.
 
-
-Sample App
+Running the Sample App
 ----------
 
 1. Open the project file in SampleApp\RevTranscriptionSample.xcodeproj
 1. Fill in your API Client Key
-1. Once running make sure you can place the sample transcription order (use credit card: 4111-1111-1111-1111 for testing)
+1. Once running make sure you can place a transcription order (use credit card: 4111-1111-1111-1111 for testing)
 
 Adding RevTranscription to Your Project
 ---------------------------------------
@@ -38,7 +37,7 @@ Adding RevTranscription to Your Project
 Using RevTranscription in Your Project
 --------------------------------------
 
-In your AppDelegate.m file:
+In your AppDelegate.m file, add a call to initialize the Rev Transcription SDK to your didFinishLaunchingWithOptions method:
 
 ```obj-c
 //MyAppDelegate.m
@@ -50,13 +49,14 @@ In your AppDelegate.m file:
 {
 	// ...
 	
-	// Add your API Key here
+	// Replace "YourApiKey" with the Client API Key you were emailed
 	// Set isSandbox to YES while testing your app, once you are ready for production, switch it to NO
+	// Be sure to use the sandbox API Client Key if isSandbox is set to YES, and the production API Client Key otherwise
 	[RevTranscription initWithClientKey:@"YourApiKey" isSandbox:YES];
 }
 ```
 
-In your View:
+In your View Controller where you want to launch the UI for placing a Rev Transcription order:
 
 ```obj-c
 //SomeViewController.m
@@ -67,10 +67,13 @@ In your View:
 - (IBAction)transcribeButtonPressed:(id)sender {
 	RecordingInfo * recording = [[RecordingInfo alloc] init]; // an object that contains info about the recording that needs to be transcribed 
 	recording.name = @"Sample Recording"; //name of the recording
-	recording.duration = 2. * 60.; // file duration in seconds
-	recording.filePath = @"\path\to\file";
+	recording.duration = 120.; // file duration in seconds
+	recording.filePath = @"\path\to\file"; // absolute path to the audio file
 	recording.contentMimeType = @"audio/mp4"; // The file mime type
 
+	// successBlock and failureBlock are optional - they are called when the Rev Transcription order
+	// view controller is closed after successfully placing an order or after an error with placing
+	// an order occurred. 
 	[RevTranscription presentTranscriptionInterfaceForParentViewController:self forRecording:recording 
 		withSuccessBlock:^(NSString *orderUri) {
 			NSLog(@"RevTranscription success with URI %@", orderUri);
