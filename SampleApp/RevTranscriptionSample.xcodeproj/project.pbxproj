@@ -50,6 +50,9 @@
 		C5B83B01196B5DF70033BC47 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5B83AFF196B5DF70033BC47 /* Main_iPhone.storyboard */; };
 		C5B83B04196B5DF70033BC47 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5B83B02196B5DF70033BC47 /* Main_iPad.storyboard */; };
 		C5B83B0C196B5DF70033BC47 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5B83B0B196B5DF70033BC47 /* Images.xcassets */; };
+		C5FF8C2F1976E6D90035743B /* affordable_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C5FF8C2C1976E6D90035743B /* affordable_icon@2x.png */; };
+		C5FF8C301976E6D90035743B /* lightning_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C5FF8C2D1976E6D90035743B /* lightning_icon@2x.png */; };
+		C5FF8C311976E6D90035743B /* transcriptionist_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C5FF8C2E1976E6D90035743B /* transcriptionist_icon@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -106,6 +109,9 @@
 		C5B83B03196B5DF70033BC47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
 		C5B83B0B196B5DF70033BC47 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		C5B83B12196B5DF70033BC47 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		C5FF8C2C1976E6D90035743B /* affordable_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "affordable_icon@2x.png"; sourceTree = "<group>"; };
+		C5FF8C2D1976E6D90035743B /* lightning_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lightning_icon@2x.png"; sourceTree = "<group>"; };
+		C5FF8C2E1976E6D90035743B /* transcriptionist_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "transcriptionist_icon@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -160,6 +166,9 @@
 		C54B51F51976056000284914 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				C5FF8C2C1976E6D90035743B /* affordable_icon@2x.png */,
+				C5FF8C2D1976E6D90035743B /* lightning_icon@2x.png */,
+				C5FF8C2E1976E6D90035743B /* transcriptionist_icon@2x.png */,
 				C54B51F61976056000284914 /* braun_action_sheet_panel@2x.png */,
 				C54B51F71976056000284914 /* braun_divider@2x.png */,
 				C54B51F81976056000284914 /* braun_option_checked@2x.png */,
@@ -315,6 +324,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C54B52171976056000284914 /* licenses.html in Resources */,
+				C5FF8C311976E6D90035743B /* transcriptionist_icon@2x.png in Resources */,
 				C54B522C1976056000284914 /* jcb@2x.png in Resources */,
 				C54B52351976056000284914 /* textfield@2x.png in Resources */,
 				C5B83B04196B5DF70033BC47 /* Main_iPad.storyboard in Resources */,
@@ -331,10 +341,12 @@
 				C54B52231976056000284914 /* cvc-amex.png in Resources */,
 				C54B522F1976056000284914 /* placeholder.png in Resources */,
 				C54B52311976056000284914 /* visa.png in Resources */,
+				C5FF8C2F1976E6D90035743B /* affordable_icon@2x.png in Resources */,
 				C54B521A1976056000284914 /* terms.html in Resources */,
 				C54B522B1976056000284914 /* jcb.png in Resources */,
 				C54B521D1976056000284914 /* braun_option_checked@2x.png in Resources */,
 				C54B52251976056000284914 /* cvc.png in Resources */,
+				C5FF8C301976E6D90035743B /* lightning_icon@2x.png in Resources */,
 				C54B52341976056000284914 /* textfield.png in Resources */,
 				C5B83AF8196B5DF70033BC47 /* InfoPlist.strings in Resources */,
 				C54B52321976056000284914 /* visa@2x.png in Resources */,
