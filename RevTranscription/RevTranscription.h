@@ -19,7 +19,13 @@ typedef void (^RevFailedBlock)(RevApiError *error);
 
 @interface RevTranscription : NSObject
 
+// initialize the SDK with given API client key. Set isSandbox to YES during
+// testing to work with the Rev Sandbox environment, and set it to NO
+// for production
 + (void) initWithClientKey:(NSString *)clientKey isSandbox:(BOOL)isSandbox;
+
+// log out the currently logged in Rev user
++ (void) logout;
 
 // Modally present the Rev TC view
 + (void)presentTranscriptionInterfaceForParentViewController:(UIViewController *)parentViewController forRecording:(RecordingInfo *) recording

@@ -55,7 +55,7 @@
 }
 
 -(IBAction)logoutButtonPressed:(id)sender {
-    [[RevApiWrapper sharedSession] logout];
+    [RevTranscription logout];
 }
 
 @end
