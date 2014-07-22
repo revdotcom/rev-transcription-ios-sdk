@@ -9,6 +9,7 @@
 #import "SampleViewController.h"
 #import "RevTranscription.h"
 #import "RevApiWrapper.h"
+#import "RevApiError.h"
 #import "RecordingInfo.h"
 
 @interface SampleViewController ()
@@ -50,7 +51,7 @@
     [RevTranscription presentTranscriptionInterfaceForParentViewController:self forRecording:recording withSuccessBlock:^(NSString *orderUri) {
         NSLog(@"RevTranscription success with URI %@", orderUri);
     } failureBlock:^(RevApiError *error) {
-        NSLog(@"RevTranscription error");
+        NSLog(@"RevTranscription error %@", [error errorDescription]);
     }];
 }
 

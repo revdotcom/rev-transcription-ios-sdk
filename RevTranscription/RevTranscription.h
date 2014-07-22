@@ -10,8 +10,7 @@
 #import <Foundation/Foundation.h>
 
 #import "RecordingInfo.h"
-
-@class RevApiError;
+#import "RevApiError.h"
 
 typedef void (^RevSuccessBlock)(NSString *orderUri);
 typedef void (^RevFailedBlock)(RevApiError *error);

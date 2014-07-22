@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		925A143A197DD57C005E541D /* sialertview_cancel_button_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 925A1437197DD57C005E541D /* sialertview_cancel_button_bg@2x.png */; };
+		925A143B197DD57C005E541D /* sialertview_delete_button_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 925A1438197DD57C005E541D /* sialertview_delete_button_bg@2x.png */; };
+		925A143C197DD57C005E541D /* sialertview_normal_button_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 925A1439197DD57C005E541D /* sialertview_normal_button_bg@2x.png */; };
 		92A2439F1974BA570020437D /* SampleRecording.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 92A2439E1974BA570020437D /* SampleRecording.m4a */; };
 		C54B52161976056000284914 /* libRevTranscription.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C54B51ED1976056000284914 /* libRevTranscription.a */; };
 		C54B52171976056000284914 /* licenses.html in Resources */ = {isa = PBXBuildFile; fileRef = C54B51F11976056000284914 /* licenses.html */; };
@@ -57,6 +60,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		925A1437197DD57C005E541D /* sialertview_cancel_button_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sialertview_cancel_button_bg@2x.png"; sourceTree = "<group>"; };
+		925A1438197DD57C005E541D /* sialertview_delete_button_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sialertview_delete_button_bg@2x.png"; sourceTree = "<group>"; };
+		925A1439197DD57C005E541D /* sialertview_normal_button_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sialertview_normal_button_bg@2x.png"; sourceTree = "<group>"; };
+		925A143E197DE051005E541D /* RevApiError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RevApiError.h; sourceTree = "<group>"; };
 		92A2439E1974BA570020437D /* SampleRecording.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = SampleRecording.m4a; sourceTree = "<group>"; };
 		C54B51ED1976056000284914 /* libRevTranscription.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libRevTranscription.a; sourceTree = "<group>"; };
 		C54B51EE1976056000284914 /* RecordingInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecordingInfo.h; sourceTree = "<group>"; };
@@ -138,6 +145,7 @@
 				C54B51EE1976056000284914 /* RecordingInfo.h */,
 				C54B51EF1976056000284914 /* Resources */,
 				C54B52141976056000284914 /* RevApiWrapper.h */,
+				925A143E197DE051005E541D /* RevApiError.h */,
 				C54B52151976056000284914 /* RevTranscription.h */,
 			);
 			name = RevTranscription;
@@ -169,6 +177,9 @@
 		C54B51F51976056000284914 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				925A1437197DD57C005E541D /* sialertview_cancel_button_bg@2x.png */,
+				925A1438197DD57C005E541D /* sialertview_delete_button_bg@2x.png */,
+				925A1439197DD57C005E541D /* sialertview_normal_button_bg@2x.png */,
 				C5FF8C2C1976E6D90035743B /* affordable_icon@2x.png */,
 				C5FF8C2D1976E6D90035743B /* lightning_icon@2x.png */,
 				C5FF8C2E1976E6D90035743B /* transcriptionist_icon@2x.png */,
@@ -340,12 +351,14 @@
 				C54B52331976056000284914 /* gradient@2x.png in Resources */,
 				C54B52291976056000284914 /* discover.png in Resources */,
 				C54B52261976056000284914 /* cvc@2x.png in Resources */,
+				925A143A197DD57C005E541D /* sialertview_cancel_button_bg@2x.png in Resources */,
 				C54B52281976056000284914 /* diners@2x.png in Resources */,
 				C54B52211976056000284914 /* amex.png in Resources */,
 				C54B52231976056000284914 /* cvc-amex.png in Resources */,
 				C54B522F1976056000284914 /* placeholder.png in Resources */,
 				C54B52311976056000284914 /* visa.png in Resources */,
 				C5FF8C2F1976E6D90035743B /* affordable_icon@2x.png in Resources */,
+				925A143B197DD57C005E541D /* sialertview_delete_button_bg@2x.png in Resources */,
 				C54B521A1976056000284914 /* terms.html in Resources */,
 				C54B522B1976056000284914 /* jcb.png in Resources */,
 				C54B521D1976056000284914 /* braun_option_checked@2x.png in Resources */,
@@ -357,6 +370,7 @@
 				92A2439F1974BA570020437D /* SampleRecording.m4a in Resources */,
 				C54B52271976056000284914 /* diners.png in Resources */,
 				C54B521B1976056000284914 /* braun_action_sheet_panel@2x.png in Resources */,
+				925A143C197DD57C005E541D /* sialertview_normal_button_bg@2x.png in Resources */,
 				C54B52241976056000284914 /* cvc-amex@2x.png in Resources */,
 				C54B522E1976056000284914 /* mastercard@2x.png in Resources */,
 				C54B52361976056000284914 /* RevTranscription.storyboard in Resources */,
@@ -430,6 +444,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COMPRESS_PNG_FILES = NO;
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -469,6 +484,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COMPRESS_PNG_FILES = NO;
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
